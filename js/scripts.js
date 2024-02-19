@@ -3,8 +3,9 @@
 function loginButton(){
     
     const username = document.getElementById('User').value;
-    const password = document.getElementById('Password').value;
     console.log(username);
+    const password = document.getElementById('Password').value;
+   
     console.log(password);
 
       
@@ -52,34 +53,34 @@ function loginButton(){
 
   // Registration Form
 
-  $(document).ready(function(event){
-    $("#Reg").submit(function(){
-      event.preventDefault();
+  // $(document).ready(function(event){
+  //   $("#Reg").submit(function(){
+  //     event.preventDefault();
 
-      const firstNameInput = $("#firstName").value().toUpperCase();
-      const middleName = $("#middleName").value();
-      const lastName = $("#lastName").value();
-      const password = $("#password").value();
-      const confirmPassword = $("#confirmPassword").value();
+  //     const firstNameInput = $("#firstName").value().toUpperCase();
+  //     const middleName = $("#middleName").value();
+  //     const lastName = $("#lastName").value();
+  //     const password = $("#password").value();
+  //     const confirmPassword = $("#confirmPassword").value();
 
 
       // $("#formRegistration").show();
 
-      let formRegistrations =[firstNameInput, middleName,lastName,password,confirmPassword]
+  //     let formRegistrations =[firstNameInput, middleName,lastName,password,confirmPassword]
 
-      console.log(formRegistrations)
+  //     console.log(formRegistrations)
       
-      alert(formRegistrations)
+  //     alert(formRegistrations)
 
-     $("#formRegistrations").show();
-
-
+  //    $("#formRegistrations").show();
 
 
 
 
-    })
-  })
+
+
+  //   })
+  // })
 
 
   //  MathematicsButton Quiz function
